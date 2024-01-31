@@ -1,0 +1,14 @@
+@media (max-width:412px) {
+    .headerimagens {
+        background-color: #6d6d6d;
+        position: relative;
+        width: 100%;
+        height: 330px;
+       
+    
+    }
+    .section1,
+    .section2{
+        justify-content: center;
+    }
+   }

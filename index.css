@@ -1,0 +1,197 @@
+body {
+    background-color: #353535;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    position: relative;
+    background-color: #353535;
+    height: 50px;
+
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menutopo {
+    width: 40px;
+}
+
+.logo {
+    background-color: #d9d9d9;
+    width: 150px;
+    position: relative;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 2px 2px;
+}
+
+/* header das imagens  */
+
+.headerimagens {
+    background-color: #6d6d6d;
+    position: relative;
+    width: 360px;
+    height: 330px;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.imagem1 {
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 530px;
+    height: 360px;
+    rotate: 45deg;
+    left: -220px;
+    top: 120px;
+    overflow: hidden;
+}
+
+.imagem2 {
+    background-color: #7e3939;
+    position: absolute;
+    width: 360px;
+    height: 530px;
+    transform: rotate(-45deg);
+    left: 120px;
+    top: -220px;
+    overflow: hidden;
+}
+
+.imagem1 img {
+    position: relative;
+    width: 390px;
+    height: 390px;
+    rotate: -45deg;
+    left: 90px;
+    top: -200px;
+
+}
+
+.imagem2 img {
+    position: relative;
+    width: 440px;
+    height: 370px;
+    rotate: 50deg;
+    top: 100px;
+    left: -200px;
+
+}
+
+.botaopedir {
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 190px;
+    height: 30px;
+    border-radius: 25px;
+    top: 250px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    font-size: 15px;
+    box-shadow: #000 2px 2px 2px;
+
+}
+
+/* ///// */
+
+.hh1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: #000000 2px 2px 4px;
+}
+
+/* !!!! */
+
+.section1,
+.section2 {
+    display: flex;
+}
+
+.quad1 {
+    display: flex;
+    background-color: #d9d9d9;
+}
+
+.quad2 {
+    display: flex;
+    background-color: #d9d9d9;
+    z-index: -1;
+}
+
+.span1,
+.span2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    margin: 15px;
+}
+
+.icons {
+    background-color: #d9d9d9;
+    margin: 15px;
+    padding: 5px;
+    box-shadow: #363636 2px 2px 2px;
+}
+
+
+
+
+/* login */
+
+.login {
+    background-color: #d9d9d9;
+    position: relative;
+    width: 100%;
+    height: 0 auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+.h1login {
+    position: relative;
+    text-align: center;
+    text-shadow: #b8b8b8 1px 1px 1px;
+    margin: 15px;
+    top: 5px;
+
+}
+
+.input1 {
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0;
+    padding-left: 15px;
+    background-color: #353535;
+    margin: 10px;
+
+}
+
+.button {
+    width: 320px;
+    height: 30px;
+    border: 0;
+    box-shadow: #6d6d6d 1px 1px 1px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.linkkk {
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}

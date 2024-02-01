@@ -146,6 +146,11 @@ body {
     box-shadow: #363636 2px 2px 2px;
 }
 
+.icons img {
+    animation: iconsanimation 30s infinite;
+
+}
+
 
 
 
@@ -196,7 +201,17 @@ body {
     font-size: 15px;
     text-decoration: none;
     color: #000;
+
 }
+
+.mostrarsenha {
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    left: -100px;
+}
+
+/* \\\ */
 
 .footerr {
     width: 100%;
@@ -260,6 +275,22 @@ body {
     font-size: 15px;
     position: relative;
     top: 6px;
+}
+
+@keyframes iconsanimation {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: rotate(40deg);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {}
 }
 
 /* divfooter">
